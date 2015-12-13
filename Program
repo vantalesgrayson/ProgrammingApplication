@@ -1,0 +1,150 @@
+/**
+ * @(#)OnlineRegistration.java
+ *
+ *
+ * @author 
+ * @version 1.00 2015/12/13
+ */
+import java.util.*;
+
+public class OnlineRegistration {
+
+	public static void main(String [] args){
+	
+		Scanner input = new Scanner(System.in);
+		
+		int choice;
+		int id;
+		String contactNo;
+		String fName;
+		String lName;
+		String eMail;
+		
+		
+		System.out.println("Choose what organization you want to join:");
+		System.out.println ("------------------------------------------");
+		System.out.println("1. Archive");
+		System.out.println("2. Descartesian Society");
+		System.out.println("3. Drama Club");
+		System.out.println("4. ICON");
+		System.out.println("5. Music Club");
+    	System.out.println("6. SCIS Pop");
+    	System.out.println("   ");
+    	System.out.print("Enter your choice: ");
+    	choice = Integer.parseInt(input.nextLine()); 
+    	System.out.println("  ");
+    		
+    	if (choice == 1){
+    		
+    	System.out.println("Welcome to Archive");
+		System.out.println("  ");
+		System.out.print("First Name: ");
+		fName = input.nextLine();
+		System.out.print("Last Name: ");
+		lName = input.nextLine();
+		System.out.print("ID Number: ");
+		id = Integer.parseInt(input.nextLine());
+		System.out.print("Email Address: ");
+		eMail = input.nextLine();
+		System.out.print("Contact Number: ");
+		contactNo = input.nextLine();		
+		System.out.println(" ");
+		System.out.print("Thank you for registering, " + fName +  " " + lName);	
+    	}
+    	
+    	if (choice == 2){
+    		    	
+    	System.out.println("Welcome to Descartesian Society");
+		System.out.println("  ");
+		System.out.print("First Name: ");
+		fName = input.nextLine();
+		System.out.print("Last Name: ");
+		lName = input.nextLine();
+		System.out.print("ID Number: ");
+		id = Integer.parseInt(input.nextLine());
+		System.out.print("Email Address: ");
+		eMail = input.nextLine(); 
+		System.out.print("Contact Number: ");
+		contactNo = input.nextLine();
+		System.out.println(" ");
+		System.out.print("Thank you for registering, " + fName +  " " + lName);
+    	}
+    	
+    	if (choice == 3){
+    	
+    	System.out.println("Welcome to Drama Club");
+		System.out.println("  ");
+		System.out.print("First Name: ");
+		fName = input.nextLine();
+		System.out.print("Last Name: ");
+		lName = input.nextLine();
+		System.out.print("ID Number: ");
+		id = Integer.parseInt(input.nextLine());
+		System.out.print("Email Address: ");
+		eMail = input.nextLine();
+		System.out.print("Contact Number: ");
+		contactNo = input.nextLine();
+		System.out.println(" ");
+		System.out.print("Thank you for registering, " + fName +  " " + lName);
+    	}
+    	
+        if (choice == 4){
+    		    	
+    	System.out.println("Welcome to ICON");
+		System.out.println("  ");
+		System.out.print("First Name: ");
+		fName = input.nextLine();
+		System.out.print("Last Name: ");
+		lName = input.nextLine();
+		System.out.print("ID Number: ");
+		id = Integer.parseInt(input.nextLine());
+		System.out.print("Email Address: ");
+		eMail = input.nextLine(); 
+		System.out.print("Contact Number: ");
+		contactNo = input.nextLine();
+		System.out.println(" ");
+		System.out.print("Thank you for registering, " + fName +  " " + lName);
+    	}
+    	
+        if (choice == 5){
+    		    	
+    	System.out.println("Welcome to Music Club");
+		System.out.println("  ");
+		System.out.print("First Name: ");
+		fName = input.nextLine();
+		System.out.print("Last Name: ");
+		lName = input.nextLine();
+		System.out.print("ID Number: ");
+		id = Integer.parseInt(input.nextLine());
+		System.out.print("Email Address: ");
+		eMail = input.nextLine();
+		System.out.print("Contact Number: ");
+		contactNo = input.nextLine();
+		System.out.println(" ");
+		System.out.print("Thank you for registering, " + fName +  " " + lName);
+    	}
+    	
+    	 if (choice == 6){
+    		    	
+    	System.out.println("Welcome to SCIS Pop");
+		System.out.println("  ");
+		System.out.print("First Name: ");
+		fName = input.nextLine();
+		System.out.print("Last Name: ");
+		lName = input.nextLine();
+		System.out.print("ID Number: ");
+		id = Integer.parseInt(input.nextLine()); 
+		System.out.println(" ");
+		System.out.print("Email Address: ");
+		eMail = input.nextLine();
+		System.out.print("Contact Number: ");
+		contactNo = input.nextLine();
+		System.out.print(" ");
+		System.out.print("Thank you for registering, " + fName +  " " + lName);
+    	}
+    	
+    	
+    	
+    	
+	}
+}
